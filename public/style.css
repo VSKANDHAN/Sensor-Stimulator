@@ -1,0 +1,111 @@
+ .main{
+    text-align: center;
+ }
+ .main h1{
+    font-size: 42px;
+    color: crimson;
+font-family:cursive;
+}
+ 
+ .container{
+    width: 98%;
+    margin: auto;
+
+    border: 2px solid crimson;
+border-radius: 8px; 
+display:flex;
+justify-content: space-between;
+padding: 10px;
+}
+.container .sensorsList{
+    width: 20%;
+    background-color: rgba(245, 61, 98, 0.298);
+    padding: 10px;
+    border-radius: 6px;
+    height: 100vh;
+    position: sticky;
+    top: 6px;
+    
+}
+.container .sensorsTab{
+    width: 76%;
+    border: 2px solid gray;
+    border-radius: 6px;
+    background-color: rgba(201, 201, 201, 0.316);
+    padding: 20px;
+}
+
+.sensorDiv{
+    width: 90%;
+    text-align: center;
+    border: 2px solid rgb(105, 105, 105);
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 8px;
+    padding-bottom:20px;
+}
+.sensorDiv img{
+    width: 50%;
+}
+
+.button{
+    padding: 10px;
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    border-radius: 8px;
+    display: block;
+    width: 40%;
+margin: auto;
+}
+.selectedSensor{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(187, 187, 187);
+    border-radius: 8px;
+    margin-bottom: 6px;
+}
+
+.sensor{
+    width: 50%;
+    text-align: center;
+    display: flex;
+align-items: center;
+}
+.sensor img{
+    width: 60%;
+}
+.sensor figcaption{
+    font-size: 26px;
+    color:rgb(255, 255, 255);
+    
+ 
+}
+.sensor .button{
+    width: 30%;
+    margin: 4px;
+}
+.sensorValue{
+    width: 30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.sensorValue h3{
+    font-size: 32px;
+    color: crimson;
+    
+}
+.sensorValue ul{
+    font-size: 18px;
+    font-weight: bold;
+    list-style-type: none;
+}
+.sensorValue li{
+    font-size: 24px;
+    margin: 4px;
+}
+.status{
+    font-size: 24px;
+    color: green;
+}
